@@ -16,14 +16,6 @@
     }
   },
   "attributes": {
-    "caption": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
-    },
     "media": {
       "type": "media",
       "multiple": false,
@@ -39,6 +31,14 @@
           "localized": true
         }
       }
+    },
+    "caption": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     },
     "articles": {
       "type": "relation",
