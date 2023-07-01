@@ -40,11 +40,11 @@
       },
       "type": "richtext"
     },
-    "articles": {
+    "hashtags": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::article.article",
-      "mappedBy": "photos"
+      "target": "api::hashtag.hashtag",
+      "inversedBy": "photos"
     }
   }
 }
